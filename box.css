@@ -1,0 +1,18 @@
+:root {
+    --box-width: 350px;
+    --box-height: 250px;
+    --box-background-color: rgb(170, 255, 0);
+    --box-color:white;
+  }
+  
+  body::before {
+    content: 'This is a box';
+    display: block;
+    width: var(--box-width);
+    height: var(--box-height);
+    background-color: var(--box-background-color);
+    color:var(--box-color);
+    margin: 20px;
+  }
+  
+  
